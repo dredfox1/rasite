@@ -3,22 +3,20 @@
       <main>
         <section>
       	<?php 
-      	require_once 'dbconfig.php';
+    	   require_once 'dbconfig.php';
 
 
           $ticketid = $_GET['id'];
       		$sql = "SELECT * FROM tickets WHERE id = $ticketid";
-  			   $result = $conn->query($sql);
+            $result = $conn->query($sql);
 
-  			   $ticket = $result->fetch_assoc();
+            $ticket = $result->fetch_assoc();
 
           if(isset($_GET['handeld']) && $_GET['handeld'] == "true"){
             $sql = "UPDATE tickets SET status = 1 WHERE id = $ticketid";
+            $conn->query($sql);
 
-              $conn->query($sql);
-
-
-              header("Location: tickets.php?status=0&page=1");
+            header("Location: tickets.php?status=0&page=1");
           }
   				?>
 

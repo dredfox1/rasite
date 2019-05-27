@@ -37,7 +37,7 @@
         <span>
           <?php if($_SESSION['user_rights'] >= 2){ ?>
             <h2>Admin</h2>
-            <a href="verweiderdeGebruikers.php?page=1">Verweiderde Gebruikers</a>
+            <a href="verwijderdeGebruikers.php?page=1">verwijderde Gebruikers</a>
             <a href="logs.php?page=1">Logs</a>
           <?php } ?>
         </span>

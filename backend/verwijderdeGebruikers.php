@@ -21,11 +21,11 @@
       </section>
         <section class="pages">
           <?php $number = 1; $loop_count = 0;?>
-          <?php if($_GET['page'] > 1){ ?> <a href="verweiderdeGebruikers.php?page=<?php echo $_GET['page']-1; ?>"><</a><?php }else{ ?><p><</p><?php } ?>
+          <?php if($_GET['page'] > 1){ ?> <a href="verwijderdeGebruikers.php?page=<?php echo $_GET['page']-1; ?>"><</a><?php }else{ ?><p><</p><?php } ?>
           <?php $rows = $result->num_rows; while($rows >= 0){ ?>
-            <a href="verweiderdeGebruikers.php?page=<?php echo $number ?>"><?php echo $number ?></a>
+            <a href="verwijderdeGebruikers.php?page=<?php echo $number ?>"><?php echo $number ?></a>
             <?php $number++; $rows-=8;$loop_count++;} ?>
-          <?php if($_GET['page'] <= floor($result->num_rows / 8)){ ?> <a href="verweiderdeGebruikers.php?page=<?php echo $_GET['page']+1; ?>">></a><?php }else{ ?><p>></p><?php  } ?>
+          <?php if($_GET['page'] <= floor($result->num_rows / 8)){ ?> <a href="verwijderdeGebruikers.php?page=<?php echo $_GET['page']+1; ?>">></a><?php }else{ ?><p>></p><?php  } ?>
         </section>
       </main>
 <?php require_once 'partial/footer.php'; ?>

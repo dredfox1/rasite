@@ -25,7 +25,7 @@
           		</article>
   				<?php
 
-}
+          }
           $count++;
   			}
       	 ?>

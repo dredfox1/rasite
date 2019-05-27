@@ -50,10 +50,10 @@ INSERT INTO `logs` (`id`, `title`, `short_disc`, `disc`, `username`, `date_time`
 (97, 'Ticket aangemaakt.', 'Nieuwe ticket gemaakt met prioriteit 2', '', 'admin', '2019-05-27 09:36:02', 1),
 (98, 'Ticket aangemaakt.', 'Nieuwe ticket gemaakt met prioriteit 3', '', 'admin', '2019-05-27 09:36:24', 1),
 (99, 'Gebruiker toegevoegt.', '', '', 'admin', '2019-05-27 09:50:59', 1),
-(100, 'Gebruiker verweiderd.', 'Verweiderd: dummy', 'Gebruiker is op in-actief gezet en nog niet echt verweiderd. \r\n                Gebruiker kan weer actief gemaakt worden door een admin. \r\n                Het is ook mogelijk om de gebruiker permanent te verweideren.', 'admin', '2019-05-27 10:16:31', 0),
+(100, 'Gebruiker verwijderd.', 'verwijderd: dummy', 'Gebruiker is op in-actief gezet en nog niet echt verwijderd. \r\n                Gebruiker kan weer actief gemaakt worden door een admin. \r\n                Het is ook mogelijk om de gebruiker permanent te verweideren.', 'admin', '2019-05-27 10:16:31', 0),
 (101, 'Gebruiker herstelt.', 'Herstelt: dummy', 'Gebruiker is weer op actief gezet.', 'admin', '2019-05-27 10:16:40', 2),
-(102, 'Gebruiker verweiderd.', 'Verweiderd: dummy', 'Gebruiker is op in-actief gezet en nog niet echt verweiderd. \r\n                Gebruiker kan weer actief gemaakt worden door een admin. \r\n                Het is ook mogelijk om de gebruiker permanent te verweideren.', 'admin', '2019-05-27 10:16:52', 0),
-(103, 'Gebruiker permanent verweiderd.', 'Perm. Verweiderd: dummy', 'De gebruiker is permanent verweiderd. Het is niet mogelijk om de gebruiker weer op actief te zetten.\r\n                De gebruiker zal opnieuw aangemaakt moeten worden indien iemand de gebruiker weer wilt gebruiken.', 'admin', '2019-05-27 10:17:00', 0);
+(102, 'Gebruiker verwijderd.', 'verwijderd: dummy', 'Gebruiker is op in-actief gezet en nog niet echt verwijderd. \r\n                Gebruiker kan weer actief gemaakt worden door een admin. \r\n                Het is ook mogelijk om de gebruiker permanent te verweideren.', 'admin', '2019-05-27 10:16:52', 0),
+(103, 'Gebruiker permanent verwijderd.', 'Perm. verwijderd: dummy', 'De gebruiker is permanent verwijderd. Het is niet mogelijk om de gebruiker weer op actief te zetten.\r\n                De gebruiker zal opnieuw aangemaakt moeten worden indien iemand de gebruiker weer wilt gebruiken.', 'admin', '2019-05-27 10:17:00', 0);
 
 -- --------------------------------------------------------
 

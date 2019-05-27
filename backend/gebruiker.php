@@ -37,8 +37,8 @@
                 $conn->query($sql);
 
                 $title = "Gebruiker permanent verwijderd.";
-                $short_disc = "Perm. Verweiderd: " . $user['username'];
-                $disc = "De gebruiker is permanent verweiderd. Het is niet mogelijk om de gebruiker weer op actief te zetten.
+                $short_disc = "Perm. verwijderd: " . $user['username'];
+                $disc = "De gebruiker is permanent verwijderd. Het is niet mogelijk om de gebruiker weer op actief te zetten.
                 De gebruiker zal opnieuw aangemaakt moeten worden indien iemand de gebruiker weer wilt gebruiken.";
                 $level = 0;
 
@@ -54,9 +54,9 @@
 
                 $conn->query($sql);
 
-                $title = "Gebruiker verweiderd.";
-                $short_disc = "Verweiderd: " . $user['username'];
-                $disc = "Gebruiker is op in-actief gezet en nog niet echt verweiderd. 
+                $title = "Gebruiker verwijderd.";
+                $short_disc = "verwijderd: " . $user['username'];
+                $disc = "Gebruiker is op in-actief gezet en nog niet echt verwidderd. 
                 Gebruiker kan weer actief gemaakt worden door een admin. 
                 Het is ook mogelijk om de gebruiker permanent te verweideren.";
                 $level = 0;
