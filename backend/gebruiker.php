@@ -36,7 +36,7 @@
 
                 $conn->query($sql);
 
-                $title = "Gebruiker permanent verweiderd.";
+                $title = "Gebruiker permanent verwijderd.";
                 $short_disc = "Perm. Verweiderd: " . $user['username'];
                 $disc = "De gebruiker is permanent verweiderd. Het is niet mogelijk om de gebruiker weer op actief te zetten.
                 De gebruiker zal opnieuw aangemaakt moeten worden indien iemand de gebruiker weer wilt gebruiken.";
