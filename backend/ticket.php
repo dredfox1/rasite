@@ -26,8 +26,8 @@
             <p>Prioriteit: <b><?php echo $ticket['priority']; ?></b></p>
   					<p>Datum/tijd: <b><?php echo $ticket['date_time']; ?></b></p>
             <span>
-              <button name="edit" class="btn-green">Edit</button>
-              <button name="handeld" class="btn-red">Verwerken</button>
+              <button name="edit" class="btn-green" >Edit</button>
+              <button name="handeld" class="btn-red" onclick="confRestore(<?php echo $user['id']; ?>)">Verwerken</button>
             </span>
 
           		</article>

@@ -34,3 +34,15 @@ function confRestore(id){
 	}
 
 }
+
+
+function confVerwerken(id){
+	var conf = confirm('Weet je zeker dat je de ticket wilt verwerken?');
+	if(conf){
+		window.location.href= 'ticket.php?verwerken=true&id='+id;
+	}else{
+		
+		window.location.href= 'ticket.php?verwerken=false&id='+id;
+	}
+
+}
